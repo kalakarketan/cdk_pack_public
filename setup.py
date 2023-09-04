@@ -10,7 +10,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="author",
-    package_dir={"": "lib"},
+    package_dir={"": "constructs/multi_region_s3_crr_kms_cmk_source/lib"},
     packages=setuptools.find_packages(where="multi_region_s3_crr_kms_cmk_source"),
     install_requires=[
         "aws-cdk-lib==2.94.0",
